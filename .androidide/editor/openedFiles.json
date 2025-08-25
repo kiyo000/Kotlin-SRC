@@ -1,0 +1,20 @@
+{
+  "allFiles": [
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/Hook Mem/app/src/main/java/ohex/android/hookmem/MainActivity.kt",
+      "selection": {
+        "end": {
+          "column": 33,
+          "index": 12228,
+          "line": 240
+        },
+        "start": {
+          "column": 33,
+          "index": 12228,
+          "line": 240
+        }
+      }
+    }
+  ],
+  "selectedFile": "/storage/emulated/0/AndroidIDEProjects/Hook Mem/app/src/main/java/ohex/android/hookmem/MainActivity.kt"
+}

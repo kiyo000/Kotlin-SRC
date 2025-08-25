@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">XV-Siahz醜事</string>
+    <string-array name="spinner_items1">
+        <item>Method 1 ( Customisable )</item>
+        <item>Method 2 ( Coming soon )</item>
+    </string-array>
+</resources>

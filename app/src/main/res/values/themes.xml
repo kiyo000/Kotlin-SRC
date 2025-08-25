@@ -1,0 +1,40 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:navigationBarColor">@color/background_color</item>
+        <item name="android:windowBackground">@color/background_color</item>
+        <item name="android:statusBarColor">@color/background_color_dark</item>
+    </style> 
+    
+    <!-- No Action Bar theme for Splash Screen -->
+    <style name="AppTheme.NoActionBar" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="android:windowDisablePreview">true</item>
+        <item name="android:windowBackground">@color/background_color</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+    </style>
+    
+    <!-- Custom style for the MaterialAlertDialog -->
+    <style name="CustomAlertDialogTheme" parent="Theme.MaterialComponents.DayNight.Dialog.Alert">
+        <!-- Set the background color for the dialog -->
+        <item name="backgroundColor">@color/dialog_background</item>
+        
+        <!-- Set the title text color -->
+        <item name="android:textColorPrimary">@color/dialog_title_color</item>
+        
+        <!-- Set the message text color -->
+        <item name="android:textColorSecondary">@color/dialog_message_color</item>
+        
+        <!-- Set button text color -->
+        <item name="colorPrimary">@color/dialog_button_color</item>
+
+        <!-- Customize the button background -->
+        <item name="buttonBarPositiveButtonStyle">@style/CustomDialogButton</item>
+    </style>
+
+    <!-- Custom style for the positive button -->
+    <style name="CustomDialogButton" parent="Widget.MaterialComponents.Button.TextButton">
+        <item name="android:textColor">@color/dialog_button_color</item>
+        <item name="backgroundTint">@color/button_background_color</item>
+    </style>
+</resources>

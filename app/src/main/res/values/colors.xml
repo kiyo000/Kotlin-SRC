@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background_color">#1E1E1E</color>
+    <color name="background_color_dark">#121212</color> <!-- Dark background color -->
+    <color name="colorPrimaryDark">#BB86FC</color> <!-- Darker primary color -->
+    <color name="colorPrimary">#6200EE</color> <!-- Primary color -->
+    <color name="colorAccent">#03DAC5</color> <!-- Accent color -->
+    <!-- Add other colors as needed -->
+    <color name="mtrl_textinput_default_box_stroke_color">#6200EE</color>
+    
+    <color name="dialog_background">#1E1E1E</color>
+    <color name="dialog_title_color">#ffffff</color>
+    <color name="dialog_message_color">#ffffff</color>
+    <color name="dialog_button_color">#6200EE</color>
+    <color name="button_background_color">#00796B</color>
+</resources>
